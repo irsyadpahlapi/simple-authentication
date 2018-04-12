@@ -12,7 +12,7 @@ module.exports = {
         })
       }
       else {
-        res.status(401).json({
+        res.status(400).json({
           message: "email atau password kagak bener cuy"
         })
       }
